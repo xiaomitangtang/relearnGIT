@@ -50,4 +50,9 @@ git merge dev   将dev分支进行合并到当前所在分支
 
 git merge --no-ff -m "merge with no-ff" dev  这样表示禁用Fast forward，会创建新的commit
 
+git stash    将现场临时存储起来，
+git stash list 查看临时存储的列表
 
+git stash apply
+git stash drop
+git stash pop
