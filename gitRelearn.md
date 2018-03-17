@@ -55,7 +55,7 @@ git stash list 查看临时存储的列表
 
 
 git stash apply
+git stash apply stash{0}   回复到制定的stash版本
 git stash drop
 git stash pop
 
-------第二次测试stash之后
