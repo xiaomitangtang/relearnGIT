@@ -44,5 +44,5 @@ git checkout -b dev   创建并切换分支
 git merge dev   将dev分支进行合并到当前所在分支
 
 
-----这是master
+----这是maste2
 
