@@ -42,7 +42,12 @@ git checkout -b dev   创建并切换分支
   git branch -d dev 删除dev分支
 
 git merge dev   将dev分支进行合并到当前所在分支
-
+            如果两个版本合并之后发现冲突了，需要手动修改之后再次add  commit
+             然后就将其他版本合并到当前版本了，可以删除其他版本
 
 ----这是修正冲突之后的版本
+
+
+git merge --no-ff -m "merge with no-ff" dev  这样表示禁用Fast forward，会创建新的commit
+
 
