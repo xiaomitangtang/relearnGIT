@@ -59,3 +59,12 @@ git stash apply stash{0}   回复到制定的stash版本
 git stash drop
 git stash pop
 
+
+git brach -D 分支名称    强制删除分支，没有被完全合并的分支也可以删除
+
+
+git remote 查看远程仓库信息
+git remote -v  查看远程仓库详细信息
+
+
+--这是master2
