@@ -9,3 +9,4 @@ git diff 查看不同
 git reset --hard HEAD^    返回上一个版本
 git reset --hard id       返回指定id的版本
 
+git reflog    查看命令历史  可以查看要回去的版本
