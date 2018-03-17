@@ -6,3 +6,6 @@ git add -A
 git commit -m '备注'
 git status   查看仓库当前状态
 git diff 查看不同
+git reset --hard HEAD^    返回上一个版本
+git reset --hard id       返回指定id的版本
+
