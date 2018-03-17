@@ -83,3 +83,30 @@ git branch --set-upstream dev origin/dev
 如果git pull提示“no tracking information”，则说明本地分支和远程分支的链接关系没有创建，用命令git branch --set-upstream branch-name origin/branch-name。
 
 这就是多人协作的工作模式，一旦熟悉了，就非常简单。
+
+
+标签
+  git tag  v1.0   创建一个  v1.0的标签，和当前的版本进行绑定
+  git tag v1.0  id   给指定版本打一个v1.0的标签
+  git tag -a v0.1 -m "version 0.1 released" 3628164   给指定版本打标签，并且有备注
+  git tag       查看所有标签
+  git tag -d v1.0 删除标签
+  git push origin v1.0    推送标签
+  git push origin --tags  推送所有标签
+
+  删除标签
+  先删除本地标签  git tag -d v1.0
+  在远程删除     git push origin :refs/tags/v0.9
+
+
+  使用github   Fork别人的项目到自己的github上面，然后可以从自己的项目进行clone
+              只有从自己的账号clone的才可以推送
+              然后可以在github上面发起一个pull request等待对方接受
+        Git托管服务   ----码云（gitee.com）
+
+
+git config --global color.ui true
+
+git config --global alias.st status  配置别名
+
+git log -2  显示几条数据
