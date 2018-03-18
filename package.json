@@ -10,12 +10,25 @@
     "build": "cross-env NODE_ENV=production webpack --progress --hide-modules"
   },
   "dependencies": {
+    "axios": "^0.18.0",
     "babel-polyfill": "^6.26.0",
+    "element-ui": "^2.2.2",
+    "express": "^4.16.3",
+    "formidable": "^1.2.0",
+    "gm": "^1.23.1",
     "jquery": "^1.11.1",
+    "json-server": "^0.12.1",
     "less": "^3.0.1",
     "less-loader": "^4.1.0",
+    "lodash": "^4.17.5",
+    "mint-ui": "^2.2.13",
+    "mongodb": "^3.0.4",
+    "mongoose": "^5.0.10",
+    "rimraf": "^2.6.2",
     "vue": "^2.5.11",
+    "vue-resource": "^1.5.0",
     "vue-router": "^3.0.1",
+    "vuejs-datepicker": "^0.9.29",
     "vuex": "^3.0.1"
   },
   "browserslist": [
